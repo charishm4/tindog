@@ -1,0 +1,178 @@
+body {
+  font-family: "Montessarat", sans-serif;
+
+}
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+h1 {
+  font-family: "Montessarat",sans-serif;
+  line-height: 1.5;
+  font-size: 3.2rem;
+  font-weight: 900;
+  color: #fff;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #1f1f1f;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #1f1f1f;
+  font-weight: bolder;
+}
+p{
+font-size: 1.2rem;
+font-family: Montserrat;
+font-weight: lighter;
+color: #000;
+}
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+  font-family: Ubuntu;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+ font-family: Montserrat;
+  font-weight: lighter;
+}
+
+/* Download buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* iphone image */
+.image {
+  width: 60%;
+  position: absolute;
+  right: 30%;
+}
+.rotate-25 {
+  transform: rotate(25deg);
+}
+
+/* features */
+#features {
+  padding: 7% 15%;
+  text-align: center;
+  line-height: 1.5;
+  background-color: #fff;
+  z-index: 1;
+  position: relative;
+}
+.feature-box {
+  padding: 5%;
+}
+.feature-icon {
+  color: #ef8172;
+  margin-bottom: 5%;
+}
+.feature-icon :hover {
+  color: #ff4c68;
+}
+/* testimonials */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+.testimonial-img {
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+.testimonial-text {
+  font-size: 2.75rem;
+  color: #fff;
+}
+
+/* press */
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+.pricingh2{
+  font-size: 2.5rem;
+  color:#000;
+}
+/* sign up buttons */
+.btn1:hover{
+  background-color: #0d6efd;
+}
+.btn2{
+  padding-left: 20%;
+  padding-right: 20%;
+  font-size: 1.5rem;
+}
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 100px 15% 80px;
+}
+.ctah3{
+color: #fff;
+}
+
+/* footer section */
+#footer {
+
+  text-align: center;
+  padding: 100px 15% 10%;
+}
+.social{
+  color:#000;
+  text-decoration: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.copy{
+
+  font-size: 0.8rem;
+  color: #a0a0a0;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .image {
+    position: static;
+    transform: rotate(0);
+  }
+}
